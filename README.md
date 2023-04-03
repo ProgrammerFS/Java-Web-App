@@ -1,1 +1,1 @@
-A hello world servlet example for COMP0004.
+A List Manager App made in java using Maven and Tomcat
