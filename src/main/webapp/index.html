@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>List Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-itemLists: center;
+      height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #333333;
+      margin-top: 50px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    a {
+      display: block;
+      width: 200px;
+      height: 50px;
+      background-color: #0099cc;
+      color: #ffffff;
+      text-align: center;
+      line-height: 50px;
+      margin: 50px auto 0;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: all 0.5s ease-in-out;
+    }
+
+    a:hover {
+      background-color: #ffffff;
+      color: #0099cc;
+      border: 2px solid #0099cc;
+      transform: scale(1.1);
+    }
+    p {
+      text-align: center;
+      font-size: 1.2em;
+      color: #666666;
+      margin-top: 25px;
+      animation: fadeIn 2s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Welcome to List Manager app</h1>
+  <p>This web application is designed to help users manage itemLists that include text, images, and link lists with ease. It offers a variety of functions including adding, editing, deleting, and renaming itemLists. Additionally, users can search for specific itemLists, making the whole process quick and efficient. Overall, it provides a simple and user-friendly interface for effective itemList management.</p>
+  <a href="/viewAllLists" >Click for home page</a>
+</body>
+
+</html>

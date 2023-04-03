@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+form input[type="text"], form input[type="url"] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+form input[type="text"]:focus, form input[type="url"]:focus {
+    outline: none;
+    border-color: #5e9cd3;
+}
+
+form input[type="submit"] {
+    background-color: #5e9cd3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3278b3;
+}
+
+a {
+    color: #5e9cd3;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fileInput {
+    display: none;
+}
+
+label[for="file"] {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #3278b3;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+label[for="file"]:hover {
+    background-color: #3278b3;
+}
+
+label[for="file"]::before {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+label[for="file"]::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #fff transparent;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+
