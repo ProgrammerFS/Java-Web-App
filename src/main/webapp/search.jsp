@@ -5,13 +5,7 @@
 <%@ page import="java.util.Map" %>
 <%@ page import="java.util.Iterator" %>
 <%@ page import="ucl.ac.uk.main.Model" %>
-<%@ page import="ucl.ac.uk.main.ModelFactory" %><%--
-  Created by IntelliJ IDEA.
-  User: fahads
-  Date: 27/03/2023
-  Time: 11:28 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="ucl.ac.uk.main.ModelFactory" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

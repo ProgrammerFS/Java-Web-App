@@ -2,13 +2,7 @@
 <%@ page import="ucl.ac.uk.main.ItemList" %>
 <%@ page import="java.util.List" %>
 <%@ page import="ucl.ac.uk.main.Model" %>
-<%@ page import="ucl.ac.uk.main.ModelFactory" %><%--
-  Created by IntelliJ IDEA.
-  User: fahads
-  Date: 26/03/2023
-  Time: 4:37 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="ucl.ac.uk.main.ModelFactory" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
